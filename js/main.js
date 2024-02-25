@@ -7,4 +7,4 @@ for (var i = 0; i < portfolio_card__content.length; i++) {
         this.classList.remove("active");
     });
 }
-
+ 
