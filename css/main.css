@@ -292,7 +292,7 @@ body {
 }
 .portfolio-card__content.active {
     opacity: 1;
-    transition: 0.5s;
+    transition: 1s;
 }
 .portfolio-card__detail {
     width: 90%;
@@ -306,7 +306,7 @@ body {
     backdrop-filter: blur(7px);
     position: absolute;
     bottom: 0;
-    transform: translateY(100%);
+    transform: translateY(-40%);
 }
 .portfolio-card__desc {
     color: var(--white);
