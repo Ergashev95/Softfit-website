@@ -304,13 +304,12 @@ body {
     backdrop-filter: blur(7px);
     position: absolute;
     bottom: 0;
-    transform: translateY(100%);
+    transform: translateY(-40%);
 }
 .portfolio-card__desc {
     color: var(--white);
     font-size: 22px;
 }
-
 
 /* PORTFOLIO-SECTION */
 
@@ -417,12 +416,6 @@ padding-bottom: 100px;
     margin-top: 50px;
 }
 /* SITE-FOOTER */
-
-
-
-
-
-
 
 
 
