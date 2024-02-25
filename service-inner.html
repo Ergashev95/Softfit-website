@@ -50,37 +50,50 @@
       <!-- MODAL PAGE -->
       <div class="container">
         <div class="modal">
-          <form class="form-modal">
+          <form action="https://htmlacademy.ru/"  method="POST" class="form-modal">
             <div>
-              <label for="">Ism Familiya</label>
+              <label for="name">Ism Familiya</label>
               <input
+              id="name"
                 style="width: 373px"
                 type="text"
                 placeholder="Ismingizni kiriting"
+                name="name"
+                required
               />
             </div>
             <div>
-              <label for="">Companiyani kiriting</label>
+              <label for="company">Companiyani kiriting</label>
               <input
+              id="company"
                 style="width: 333px"
                 type="text"
-                placeholder="Ismingizni kiriting"
+                placeholder="Company"
+                name="company_name"
+                required
               />
             </div>
             <div>
-              <label for="">Telegram username</label>
+              <label for="username">Telegram username</label>
               <input
+              id="username"
                 style="width: 353px"
                 type="text"
-                placeholder="Ismingizni kiriting"
+                placeholder="Username"
+                name="username"
+                required
               />
             </div>
             <div>
-              <label for="">Phone number</label>
+              <label for="phone">Phone number</label>
               <input
+              id="phone"
                 style="width: 353px"
                 type="tel"
-                placeholder="Ismingizni kiriting"
+                placeholder="Phone"
+                value="+998 99"
+                name="phone"
+                required
               />
             </div>
             <div>
@@ -91,30 +104,17 @@
               </div>
             </div>
             <div>
-              <label for="">Sizga bog'lanish usulini tanlang</label>
-              <div class="select" style="width: 323px" name="" id="">
+              <label for="tg">Telegram</label>
+              <div class="select" style="width: 323px" name="" id="tg">
                 Sizga bog'lanish usulini tanlang
                 <i class="fas fa-caret-down"></i>
               </div>
             </div>
             <div>
               <label for="">Message</label>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea name="" id="" cols="30" rows="10" required></textarea>
             </div>
-          </form>
-          <div class="ux-content">
-            <h1>Ux & Ui design</h1>
-
-            <p>
-              In the current tech scenario, one can’t predict what device their
-              user will use to interact with a product. This is why it’s always
-              a good idea to build something that supports all devices. However
-              it is nearly impossible to design for every screen size with so
-              many .
-            </p>
-          </div>
-        </div>
-        <a class="btn" href=""
+            <button type="submit" class="btn"
           >Jo'natish
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +135,21 @@
               </clipPath>
             </defs>
           </svg>
-        </a>
+            </button>
+          </form>
+          <div class="ux-content">
+            <h1>Ux & Ui design</h1>
+
+            <p>
+              In the current tech scenario, one can’t predict what device their
+              user will use to interact with a product. This is why it’s always
+              a good idea to build something that supports all devices. However
+              it is nearly impossible to design for every screen size with so
+              many .
+            </p>
+          </div>
+        </div>
+        
       </div>
     </div>
     <!-- /MODAL PAGE -->

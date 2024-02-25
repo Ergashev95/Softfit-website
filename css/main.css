@@ -150,6 +150,7 @@ body {
 .menu-list {
     display: flex;
     column-gap: 35px;
+    align-items: center;
 }
 
 .menu-link {
@@ -160,6 +161,8 @@ body {
     line-height: 23px;
     opacity: .3;
     cursor: pointer;
+
+    display: block;
 }
 .menu-lang {
     display: flex;
@@ -180,6 +183,22 @@ body {
 }
 .menu-lang__link.active {
        opacity: 1;
+}
+
+/* HEADER CONTACT */
+.site-header__content {
+    position: relative;
+}
+.site-header__contact {
+    position: absolute;
+    display: flex;
+    /* bottom: 0; */
+    top: -10%;
+}
+
+.site-header__brief {
+    background-color: var(--white);
+    color: #000;
 }
 
 /* HOVER */
