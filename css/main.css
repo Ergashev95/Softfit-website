@@ -250,6 +250,77 @@ body {
 /* SERVICES-SECTION */
 
 
+/* PORTFOLIO-SECTION */
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 5px;
+}
+.portfolio-card {
+    max-width: 617px;
+    width: 100%;
+    height: 326px;
+    border-radius: 21px;
+    overflow: hidden;
+    border: 1px solid var(--white);
+    position: relative;
+}
+.portfolio-card__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 21px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.portfolio-card__content {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #ffffff2e;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-card__content.active {
+    opacity: 1;
+}
+.portfolio-card__detail {
+    width: 90%;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    bottom: 7%;
+    
+}
+.portfolio-card__desc {
+    color: var(--white);
+    font-size: 22px;
+}
+.portfolio-card__btn {
+}
+.outline-btn {
+}
+
+/* PORTFOLIO-SECTION */
+
+
+
+
 
 
 
