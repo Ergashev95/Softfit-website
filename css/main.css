@@ -292,6 +292,7 @@ body {
 }
 .portfolio-card__content.active {
     opacity: 1;
+    transition: 0.5s;
 }
 .portfolio-card__detail {
     width: 90%;
