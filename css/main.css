@@ -89,6 +89,8 @@ body {
     font-family: var(--Fraunces);
 }
 
+
+
 filter-1 {
     position: absolute;
     left: 1100px;
@@ -99,12 +101,6 @@ filter-1 {
     background: #926569 560% / cover no-repeat;
     filter: blur(140px);
 }
-
-
-
-
-
-
 
 
 
